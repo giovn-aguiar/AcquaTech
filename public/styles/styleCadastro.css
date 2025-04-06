@@ -1,0 +1,131 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+:root{
+    --azul: #32b9cd;
+    --amarelo: #e3b062;
+    --rosa: hsl(323, 79%, 68%);
+}
+
+.header{
+    background-color: black;
+    border-bottom: 3px solid var(--azul);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 120px;
+}
+
+.titulo {
+    color: var(--azul);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    color: var(--amarelo);
+    list-style: none;
+    width: 300px;
+}
+
+.navbar a {
+    color: var(--amarelo);
+    text-decoration: none;
+}
+
+.agora{
+    font-weight: bolder;
+}
+
+/*corpo*/
+
+h2, .campo{
+    color: var(--rosa);
+    font-weight: bold;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.login{
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 80vh;  
+}
+
+.login .container {
+    display: flex;  
+    justify-content: space-around;  
+    background-color: #d4dfe0;
+    padding: 50px;
+    width: 30%;  
+    border-radius: 30px; 
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input{
+    text-align: center;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: var(--azul);
+}
+
+
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #d90978;
+    color: #d4dfe0;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    border: none;
+}
+
+/*footer*/
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #32b9cd;   
+}
+
+.footer .container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer h4{
+    margin-bottom: 0;
+}
